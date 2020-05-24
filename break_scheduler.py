@@ -28,7 +28,7 @@ while True:  # While Loop To Repete Section Of Code n Number Of Times
 local_time  = 0 # Initial Time , Will be Added Later
 
 
-while break_time > local_time: # While loop Runs Code Untill Break_time is Greater Than local_time
+while break_time > local_time: # While loop Runs Code Untill local_time is Equal To break_time
 
     time.sleep(n) # Keep Track of Time To Wait For "n" Hours
     webbrowser.open(url) # Will allow displaying Web-based documents to users
